@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #34495e;
+  color: white;
+  padding: 15px 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background: #1abc9c;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #16a085;
+}
+
+.login-btn {
+  background: #e74c3c;
+}
+
+.login-btn:hover {
+  background: #c0392b;
+}

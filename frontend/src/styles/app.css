@@ -1,0 +1,25 @@
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+  }
+  
